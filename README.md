@@ -1,102 +1,108 @@
-**HR ANALYTICS PROJECT**
+# 👥 HR Analytics Dashboard
 
-1. Preview of Projects
-2. Project Overview
+An end-to-end HR analytics project analyzing workforce data using SQL, Power BI, Tableau, and Excel to track employee attrition, workforce demographics, and job satisfaction KPIs — enabling data-driven HR decision-making.
 
-**Preview of Projects:**
+---
 
-**Power BI HR Analytics Dashboard:**
-![HR Analytics POwer BI Dashboard](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/eaa60708-2dc7-4185-a719-7b9fdd3e0bc1) 
+## 📌 Project Overview
 
-**Tableau HR Analytics Project:**
-![HR Analytics Dashboard](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/0d853a88-0651-4eae-a282-3b03abe5ed40)
+HR departments often struggle with tracking workforce health due to a lack of structured performance indicators. This project addresses that gap by building a multi-tool analytics solution that transforms raw HR data into actionable insights across attrition, engagement, and demographic trends.
 
-**SQL Queries:**
-![SQL Queries HR Analytics](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/b3ff0499-8fa8-4357-8a5a-1a36a0832e98)
+**Business Problem:** The HR team lacked visibility into attrition patterns, workforce demographics, and job satisfaction levels — making it difficult to implement targeted retention strategies or plan for future workforce needs.
 
-**SQL Power BI Test Document:**
-![SQL Power Bi Test](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/40d831f7-b6b9-4c20-9b68-16443c456f25)
+---
 
-**SQL Tableau Test Document:**
-![SQL Tableau Test HR Analytics](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/4140fb78-7148-450a-bfd8-ac15e255e4ec)
+## 📊 Dashboard Previews
 
-**Excel HR Analytics Dashboard:**
+**Power BI Dashboard**
+
+![HR Analytics Power BI Dashboard](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/eaa60708-2dc7-4185-a719-7b9fdd3e0bc1)
+
+**Tableau Dashboard**
+
+![HR Analytics Tableau Dashboard](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/0d853a88-0651-4eae-a282-3b03abe5ed40)
+
+**Excel Dashboard**
+
 ![HR Analytics Excel Dashboard](https://github.com/ekaterinakham/PowerBI-Tableau-SQL-Excel-HR-Analytics-Project/assets/144201262/61adb174-ab1f-4b95-8bb5-c5840c6f058e)
 
+---
 
-**Project Overview**
+## 🛠️ Tech Stack
 
-This project utilized four essential data analysis tools: Power BI, Tableau Desktop, SQL, and Excel.
+| Tool | Usage |
+|------|-------|
+| **SQL** | Data extraction, KPI validation, and data quality testing |
+| **Power BI** | Interactive dashboard with DAX measures and drill-throughs |
+| **Tableau** | Custom charts, trend analysis, and calculated fields |
+| **Excel** | Pivot table dashboards and visual summary reports |
 
-**Data**
+---
 
-HR Data 2022 of a medical components manufacturing company (open source)
+## 📂 Dataset
 
-**Problem Statement**
+- **Source:** HR Data 2022 from a medical components manufacturing company (open source)
+- **Scope:** Employee records including department, age, education, gender, job role, and attrition status
 
-Within the organization, the HR department bears the responsibility of monitoring and overseeing diverse facets of employee data to ensure the maintenance of a healthy workforce. Nevertheless, a notable deficiency exists in terms of well-defined performance indicators to systematically track and analyze critical HR metrics.
-To address this challenge, the project was structured around several pivotal components, meticulously designed to offer invaluable insights and hands-on experience.
+---
 
-**Analysis**
+## 🔑 KPIs Tracked
 
-A set of KPIs that can greatly benefit the HR department has been designed to address the following points:
+| KPI | Business Value |
+|-----|---------------|
+| **Employee Count** | Workforce size visibility for planning and forecasting |
+| **Attrition Count** | Tracks total employees who have left the organization |
+| **Attrition Rate** | Measures turnover levels against industry benchmarks |
+| **Active Employees** | Differentiates active vs inactive workforce capacity |
+| **Average Age** | Supports succession planning and talent acquisition strategy |
 
-**_Employee Count:_**
-With this KPI in place, the HR department can gain clear visibility into the total number of employees. This would enable effective workforce assessment, aiding in future growth or downsizing planning.
+---
 
-**_Attrition Count:_**
-By implementing a standardized method for tracking employee attrition, the HR department can obtain reliable and comprehensive data on the number of employees who have left the organization.
+## 📈 Analysis & Insights
 
-**_Attrition Rate:_**
-The introduction of a clear measure for attrition rate offers the opportunity to assess turnover levels. This can be instrumental in comparing these rates with industry benchmarks and gaining insights into employee satisfaction and engagement levels.
+**Attrition by Gender**
+Visualized attrition patterns by gender to identify disparities and inform targeted retention strategies for underrepresented groups.
 
-**_Active Employees:_**
-The ability to differentiate between active and inactive employees provides the HR department with a valuable tool to assess workforce productivity and capacity accurately.
+**Department-wise Attrition**
+Identified high-attrition departments enabling HR to proactively address underlying issues before they impact operations.
 
-**_Average Age:_**
-By incorporating the average age KPI, the HR department can delve into workforce demographics. This insight can inform effective succession planning and enhance the organization's ability to attract and retain younger talent.
+**Employee Age Distribution**
+Analyzed workforce spread across age groups to detect demographic imbalances and design age-appropriate HR programs.
 
-The HR department's challenges in understanding attrition patterns based on gender, department-wise attrition rates, employee age distribution, job satisfaction ratings, education field-wise attrition, and attrition rates by gender for different age groups have all been successfully addressed through visualizations:
+**Job Satisfaction Ratings**
+Measured employee engagement levels across roles and departments to surface dissatisfaction trends early.
 
-**_Attrition by Gender:_**
-Insightful visualizations that enable a comprehensive understanding of attrition patterns based on gender. This newfound clarity aids in identifying any gender-related disparities and facilitates the implementation of targeted retention strategies.
+**Education Field-wise Attrition**
+Identified educational backgrounds correlated with higher attrition, enabling targeted upskilling and retention programs.
 
-**_Department-wise Attrition:_**
-Visualizations have been deployed to showcase attrition rates across different departments. This enhancement empowers the HR department to easily identify departments with higher attrition rates, allowing them to promptly address any underlying issues or concerns.
+**Attrition Rate by Gender & Age Group**
+Combined gender and age analysis to uncover specific employee segments at highest attrition risk.
 
-**_Number of Employees by Age Group:_**
-Visual representations have been established to analyze the distribution of employees across various age groups. This data supports the assessment of workforce demographics and facilitates the identification of age-related gaps or imbalances, informing the implementation of targeted HR policies or programs.
+---
 
+## ⚙️ Project Phases
 
-The HR department can benefit from visualizations representing job satisfaction ratings, providing an effective means to measure employee engagement and overall job satisfaction levels.
+**SQL** — Wrote queries to extract KPI metrics and created test documents to validate dashboard data accuracy in both Power BI and Tableau
 
-**_Education Field-wise Attrition:_**
-Visual representations have been implemented to analyze attrition rates based on education fields. This allows for the identification of specific educational backgrounds associated with higher attrition, enabling tailored retention strategies.
-**
-_Attrition Rate by Gender for Different Age Groups:_**
-Visualizations display attrition rates based on gender and different age groups. This enables the HR department to identify age and gender-related attrition trends, facilitating the implementation of targeted retention strategies for specific employee segments.
+**Power BI** — Built an interactive dashboard with DAX measures, slicers, and drill-through visuals for dynamic HR reporting
 
-**Project Phases**
+**Tableau** — Designed custom chart types with complex calculated fields and trend analyses for workforce storytelling
 
-**Power BI**
+**Excel** — Developed pivot table-based dashboards with charts for a lightweight, shareable reporting format
 
-Constructed a dynamic and interactive dashboard.
-The emphasis was on data integration and the creation of visually appealing, informative visualizations.
+---
 
-**Tableau**
+## 🔑 Key Outcomes
 
-Created the dashboard in Tableau with custom charts.
-Developed complex calculations and insightful trend analyses.
+- Built 8+ HR KPIs tracked across 4 tools providing comprehensive workforce visibility
+- Identified high-risk attrition segments by gender, age group, department, and education field
+- Validated all dashboard metrics against SQL query outputs ensuring 100% data accuracy
+- Delivered executive-ready dashboards enabling faster, evidence-based HR decisions
 
-**SQL**
+---
 
-Employed SQL queries to extract key metrics.
-Created test documents to demonstrate data validation data in Tableau and Power Bi using SQL queries
+## 👩‍💻 About Me
 
-**Excel** 
+I'm Rishika Katna, a Business Data Analyst with 2+ years of experience in SQL, Python, Power BI, and cloud analytics. This project reflects my interest in people analytics and building multi-tool reporting solutions that drive real HR outcomes.
 
-Created an interactive Excel dashboard incorporating pivot tables and visually compelling charts.
-
-**Conclusion**
-
-This portfolio project serves as a testament to the ability to harness data effectively, transforming it into actionable insights. It showcases the technical prowess and dedication to providing invaluable solutions through data analysis.
+🔗 [LinkedIn](https://www.linkedin.com/in/rishika-katna-095a631bb) | [GitHub](https://github.com/rishikakatna)
